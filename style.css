@@ -1,0 +1,324 @@
+/*
+Theme Name: Inbound 
+Author: Jesse Lye
+Description: Work in Progress (Face Value Portfolio Piece). If you're reading this, forgive me for my sins (August 2016). 
+Version: 0.66 Alpha 
+*/
+
+.content {
+  position: relative;
+  background: white;
+  margin-bottom: 400px;
+  overflow: hidden;
+  text-align: center; }
+
+.title {
+  text-align: center; }
+
+#titletext {
+  display: inline-block;
+  letter-spacing: 4px;
+  padding: 50px 0 50px;
+  text-transform: uppercase;
+  font-size: 50px;
+  width: 66%; }
+
+.nav ul {
+  position: relative;
+  text-align: center;
+  list-style: none;
+  border-bottom: 1px solid #DDD; }
+
+.nav ul a {
+  color: #0F0F0F;
+  text-decoration: none;
+  padding: 30px 30px 13px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease-in-out; }
+  .nav ul a:hover {
+    color: #1EAEDB;
+    border-bottom-color: #1EAEDB;
+    transition: all 0.2s ease-in-out; }
+
+.nav li {
+  display: inline-block; }
+
+.hidden-nav {
+  display: none; }
+
+#absolute {
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  background: black;
+  color: white;
+  padding: 2px 8px;
+  font-size: 27px; }
+
+#force {
+  max-width: 960px;
+  max-height: 350px; }
+
+#category {
+  color: #CEA525;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 12px; }
+
+#title {
+  font-size: 18px;
+  text-transform: uppercase; }
+
+#bannerlink {
+  color: #fff; }
+  #bannerlink:hover {
+    color: #0FA0CE; }
+
+.cerpt p {
+  color: #656565;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left; }
+
+.about-img {
+	border-radius: 50%;
+	height: 125px;
+	width: 125px;
+	margin-bottom: 12px
+}
+
+.about p {
+	margin-top: 5px;
+}
+
+.about-header {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.blogus {
+  margin-top: 70px;
+  text-align: left; }
+
+.blogus p {
+  max-width: 99%; }
+
+.last {
+  margin-bottom: 40px; }
+
+#very {
+  margin-bottom: 90px; }
+
+.blog {
+  margin-top: 50px;
+  text-align: left; }
+
+.blog p {
+  line-height: 26.6px;
+  margin-bottom: 19.6px;
+  font-size: 14px; }
+
+#nextpost {
+  font-size: 20px; }
+
+.NP {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.previous {
+  text-align: left;
+  margin: 0 auto; }
+
+.align {
+  text-align: center; }
+
+.align p {
+  text-align: center; }
+
+.avatar {
+  border-radius: 50%;
+  display: inline-block; }
+
+.randblog {
+  margin-top: 30px; }
+
+.next {
+  text-align: right; }
+
+#non {
+  margin: 0 auto;
+  padding-bottom: 35px; }
+
+#left {
+  text-align: left; }
+
+#newer {
+  text-align: right; }
+
+.sidewidget ul li {
+  list-style: none; }
+
+.sidebar-item {
+  padding-bottom: 30px; }
+
+.sidebar-item h2 {
+  font-size: 20px; }
+
+.fixed {
+  position: fixed;
+  top: 0; }
+
+.widget-item {
+  padding-bottom: 50px; }
+
+.widget-item h2 {
+  font-size: 32px; }
+
+#info {
+  position: absolute;
+  left: 50%;
+  margin-left: -86px;
+  font-size: 14px; }
+
+.box {
+  display: block;
+  text-align: center; }
+
+.newcontainer {
+  position: relative;
+  width: 100%;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.newcontainer:after, row:after, u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 400px) {
+  .newcontainer {
+    width: 85%;
+    padding: 0; } }
+#owl-demo .owl-item div {
+  padding: 5px; }
+
+#owl-demo .owl-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px; }
+
+#text {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  background: white;
+  padding: 2px 8px;
+  font-size: 20px; }
+  #text a {
+    color: black;
+    text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+footer {
+  position: fixed;
+  background: black;
+  color: white;
+  padding: 40px 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1; }
+  footer a {
+    color: white; }
+
+.menu-trigger {
+  display: none; }
+  
+#nudge {
+	margin-top: 11px;
+}
+
+@media screen and (max-width: 1236px) {
+  .content {
+    margin-bottom: 0px; }
+
+  footer {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 2;
+    float: none;
+    text-align: left; }
+
+  .widget-item {
+    padding-bottom: 20px; }
+    
+  .bits {
+    margin: 0 auto; } }
+@media screen and (max-width: 560px) {
+  #titletext {
+    margin-bottom: 0px;
+    margin: 0 auto;
+    margin-right: 80px;
+    text-align: center; }
+
+  .nav {
+    display: none; }
+
+  .menu-trigger {
+    display: block;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+    font-size: 83%;
+    cursor: pointer; }
+
+  .hidden-nav {
+    background-color: #333; }
+
+  .hidden-nav ul li {
+    float: none;
+    text-align: left;
+    color: #fff;
+    border-bottom: 2px solid #d5dce4;
+    list-style: none;
+    letter-spacing: 2px; }
+
+  .hidden-nav ul li:last-child {
+    border-bottom: none; }
+
+  .hidden-nav ul li a {
+    color: #fff; }
+
+  #cya {
+    display: none; }
+
+  footer {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 2; }
+
+  #margin {
+    margin-top: 10px; }
+
+  #absolute {
+    font-size: 14px; }
+    
+  #ac { 
+  	text-align: center; 
+  }
+   
+    
+     }
