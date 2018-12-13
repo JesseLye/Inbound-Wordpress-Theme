@@ -65,7 +65,7 @@ if (have_posts()) :
 
   </div>
 
-  <article class="sidewidget four columns">
+  <article class="sidewidget four columns" style="margin-top: 7px;">
           <?php dynamic_sidebar('sidebar1') ?>
            </article>
 

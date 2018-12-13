@@ -103,7 +103,7 @@ add_filter('excerpt_length', 'custom_excerpt_length');
 
 function author_bio ($content=''){
 
-	if(!is_page($page = 'about')) {
+	if(!is_page_template($template = 'page-about.php')) {
 
     global $post;
 
